@@ -1,0 +1,13 @@
+或 OR
+或者 OR
+且 AND
+和 AND
+并且 AND
+而且 AND
+否 NOT
+非 NOT
+除了 NOT
+没 NOT
+不 NOT
+不要 NOT
+不用 NOT

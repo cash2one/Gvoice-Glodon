@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gvoice</string>
+    <string name="action_settings">设置</string>
+    <string name="cannot_understand">我听不懂你在说什么？</string>
+    <string name="fail_to_connect_server">我先睡会，过会在聊~</string>
+    <string name="bug_in_show_msg">程序出现了错误...</string>
+    <string name="hello_msg">你好！很高兴见到你！</string>
+    <string name="cancel_recording">取消录音</string>
+    <string name="audio_too_short">时间太短</string>
+    <string name="input_method_audio">语音</string>
+    <string name="input_method_text">键盘</string>
+    <string name="touch_to_speak">按住说话</string>
+    <string name="send_button">发送</string>
+    <string name="read_answer">朗读回复</string>
+    <string name="enable">开</string>
+    <string name="disable">关</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="connection_fail">无法连接到服务器</string>
+    <string name="locate_fail">正在获取位置信息，请稍后再试</string>
+    <string name="amap_api_key">2cbc6830530d020307c7cf88d030ed82</string>
+    
+
+</resources>

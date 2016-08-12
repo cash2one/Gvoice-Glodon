@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+     
+ 	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="@string/action_settings"        
+        android:textSize="25sp" />
+ 	
+ 	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" > 
+	        
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="2dp"
+	        android:layout_marginTop="10dp"
+	        android:gravity="center_horizontal"
+	        android:orientation="horizontal" >        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:gravity="center_horizontal"
+	        	android:textSize="20sp"
+	        	android:text="@string/read_answer"/>
+	        <RadioGroup
+	            android:id="@+id/auto_read_answer"
+	            android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:orientation="horizontal" >
+	            <RadioButton 
+	                android:id="@+id/auto_read_on"
+	                android:text="@string/enable"
+	                android:textSize="16sp"/>
+	            <RadioButton 
+	                android:id="@+id/auto_read_off"
+	                android:text="@string/disable"
+	                android:textSize="16sp"/>
+	        </RadioGroup> 
+	    </LinearLayout>
+	</LinearLayout>
+	
+ 	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >        
+                 
+ 	    <Button
+            android:id="@+id/confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/confirm"
+            android:textSize="20sp" />
+ 	    <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

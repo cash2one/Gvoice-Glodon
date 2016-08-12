@@ -1,0 +1,12 @@
+#ignore other project
+qrencode-win32/
+zxing-cpp/
+#ignore something in Gvoice
+Gvoice/.metadata/
+Gvoice/Gvoice/.settings/
+Gvoice/Gvoice/bin/
+Gvoice/Gvoice/gen/
+Gvoice/Gvoice/*.log
+#ignore something in Gvoice-api
+Gvoice-api/msc/
+Gvoice-api/wav/
